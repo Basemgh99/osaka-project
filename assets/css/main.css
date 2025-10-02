@@ -1,0 +1,15 @@
+
+:root{
+    --maincolor:#fe3173;
+}
+
+body{
+
+
+    height: 5000px;
+}
+
+
+.navbar-nav .nav-item a.active{
+    color:var(--maincolor);
+}
