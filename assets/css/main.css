@@ -1,12 +1,14 @@
 
 :root{
     --maincolor:#fe3173;
+    --mainfont: "Open Sans", sans-serif;
 }
 
 body{
 
 
     height: 5000px;
+    font-family: var(--mainfont);
 }
 
 
@@ -24,4 +26,28 @@ font-weight: 700;
 }
 .projects .nav-tabs .nav-link{
 color: var(--maincolor);
+}
+.text-main{
+    color: var(--maincolor);
+}
+
+.hero{
+    background-image: url('./../img/bg_osaka.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #222222;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.icon:hover{
+    border-color: #fff;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 1000;
 }
